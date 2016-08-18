@@ -20,6 +20,8 @@ h2 {
 	width: 1000px;
 	height: 40px;
 	font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+	display: flex;
 }
 
 .topbar-section {
@@ -168,7 +170,7 @@ iframe {
 }
 
 #media-wrapper {
-	padding: 22px 0;
+	padding-top: 22px;
 }
 
 #column-left {
@@ -222,9 +224,60 @@ iframe {
 }	
 
 .media-title {
-	clear: both;
 	position: relative;
 	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	top: 73%;
+}
+
+/*.media-date {
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+}*/
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+a:hover {
+	color: #0068b3;
+}
+a:visited {
+	color: none;
+}
+
+#story-wrapper {
+	width: 100%;
+}
+
+.story-title {
+	font-size: 32px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin:0 auto;
+	padding-top: 16px;
+	font-weight: bolder;
+	color: #1e1e1e;
+}
+
+.story-date {
+	width: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #404040;
+	margin-top: 18px;
+}
+
+.body-intro {
+	margin-top: 28px;
+	margin-bottom: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #404040;
+}
+
+.story-body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #404040;
+	padding-right: 22px;
 }
 
 
